@@ -1,0 +1,230 @@
+/*CONFIGURAÇÕES GERAIS DO SITE -- DESKTOP*/
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+body {
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-family: opensans, opensans-bastian, Arial;
+    letter-spacing: -2.5px;
+    line-height: 44px;
+    color: #c71585;
+}
+
+p {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    letter-spacing: -.8px;
+    line-height: 24px;
+    font-size: 1.2em;
+    font-family: opensans, opensans-bastian, Arial;
+    color: dimgray;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    height: 104px;
+}
+
+
+/*lugar dos botões login e home*/
+
+.container_inicio {
+    margin: 0px;
+    width: 100%;
+    height: 40px;
+    background-color: silver;
+    text-align: center;
+}
+
+.container_inicio img {
+    width: 16px;
+    height: 16px;
+}
+
+.container_inicio a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+
+/*configurações do botão home*/
+
+.home {
+    margin: 10px;
+    vertical-align: middle;
+    float: left;
+}
+
+
+/*configurações da palavra Home*/
+
+div a span.p_home {
+    font-family: opensans, opensans-bastian, Arial;
+    letter-spacing: -.8px;
+    line-height: 24px;
+    color: black;
+    margin-left: 4px;
+}
+
+
+/*configurações do botão login*/
+
+.login {
+    margin: 10px;
+    vertical-align: middle;
+    float: right;
+}
+
+
+/*configurações da palavra Login*/
+
+div a span.p_login {
+    font-family: opensans, opensans-bastian, Arial;
+    letter-spacing: -.8px;
+    line-height: 24px;
+    color: black;
+    margin-left: 4px;
+}
+
+
+/*área central do topo do site*/
+
+.logo {
+    margin: 0px;
+    width: 100%;
+    height: 64px;
+    background-color: #c71585;
+    text-align: center;
+}
+
+.logo h1 {
+    display: inline-block;
+    color: white;
+    font-family: 'Press Start 2P', monospace;
+    font-size: 24px;
+    margin: 0px;
+    margin-left: 10px;
+}
+
+.logo img {
+    width: 56px;
+    height: 56px;
+    margin: 0px;
+    margin-top: 4px;
+}
+
+
+/*área do botão Dark Mode*/
+
+.box_darkmode {
+    display: inline-block;
+}
+
+.box_darkmode p {
+    margin: 0px;
+    color: black;
+}
+
+.box_darkmode img {
+    margin: 4px;
+    margin-bottom: 2px;
+}
+
+#darkmode {
+    margin: 0px;
+    margin-bottom: 2px;
+    width: 16px;
+    height: 16px;
+}
+
+
+/*área do rodapé do site*/
+
+.container_contato {
+    position: relative;
+    display: inline-block;
+    bottom: 0;
+    width: 100%;
+    background-color: #363636;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    clear: both;
+}
+
+.container_contato ul {
+    padding: 0px;
+    margin: 0px;
+    border: solid 2px black;
+    border-bottom-color: transparent;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.container_contato ul li {
+    display: inline;
+}
+
+.container_contato ul li p {
+    color: white;
+    margin: 10px;
+    font-family: Century Schoolbook;
+}
+
+.container_contato ul li img {
+    margin-right: 10px;
+    float: left;
+    height: 64px;
+    width: 64px;
+    margin: 10px;
+}
+
+
+/*CONFIGURAÇÕES GERAIS DO SITE -- MOBILE*/
+
+@media screen and (max-width: 480px) {
+    .container_inicio {
+        width: 100%;
+    }
+    .login {
+        margin: 10px;
+        margin-right: 10px;
+        vertical-align: middle;
+        float: right;
+    }
+    .logo {
+        width: 100%;
+        height: 56px;
+    }
+    .logo h1 {
+        font-size: 16px;
+        float: right;
+        margin-right: 16px;
+        margin-top: 4px;
+    }
+    .logo img {
+        float: left;
+        width: 48px;
+        height: 48px;
+        margin-top: 4px;
+        margin-left: -66px;
+    }
+    .container_contato p {
+        font-size: 16px;
+    }
+}

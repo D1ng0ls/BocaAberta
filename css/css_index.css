@@ -1,0 +1,225 @@
+/* PÁGINA INDEX - DESKTOP */
+
+.container_box a {
+    text-decoration: none;
+}
+
+.large {
+    background-image: url("../img/kNgV_LUCAS1.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+    display: inline-block;
+    align-items: center;
+    text-align: left;
+    width: 40%;
+    height: 510px;
+    padding: 0px;
+    margin: 1%;
+    margin-top: 154px;
+    margin-left: 9%;
+    margin-right: 0px;
+    color: white;
+    border-radius: 10px;
+}
+
+.large:hover {
+    background-size: 105% 105%;
+}
+
+.large h1 {
+    width: 95%;
+    margin: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 140px;
+    margin-bottom: 5px;
+    font-size: 42px;
+}
+
+.large p {
+    width: 95%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+    font-size: 21px;
+    color: white;
+}
+
+.medio {
+    float: right;
+    display: inline-block;
+    align-items: center;
+    text-align: left;
+    width: 40%;
+    height: 508px;
+    padding: 0px;
+    margin: 1%;
+    margin-top: 154px;
+    margin-right: 9%;
+    margin-left: 0px;
+}
+
+.medium1 {
+    background-image: url("../img/cyberpunkreview.png");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    position: relative;
+    align-items: center;
+    text-align: left;
+    padding: 0px;
+    border-radius: 10px;
+    height: 47%;
+    margin-top: 0px;
+}
+
+.medium1:hover {
+    background-size: 105% 105%;
+}
+
+.medium1 h1 {
+    display: inline-block;
+    width: 95%;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    margin-top: 120px;
+    font-size: 30px;
+}
+
+.medium1 p {
+    width: 95%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    font-size: 21px;
+    color: white;
+}
+
+.medium2 {
+    background-image: url("../img/cyberbug.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    align-items: center;
+    text-align: left;
+    padding: 0px;
+    margin-top: 31.25px;
+    border-radius: 10px;
+    height: 47%;
+}
+
+.medium2:hover {
+    background-size: 105% 105%;
+}
+
+.medium2 h1 {
+    display: inline-block;
+    width: 95%;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    margin-top: 140px;
+    font-size: 30px;
+}
+
+.medium2 p {
+    width: 95%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    font-size: 21px;
+    color: white;
+}
+
+.mini {
+    margin: 15px;
+    margin-left: 9%;
+    width: 60%;
+    padding-bottom: 25px;
+    float: left;
+    border-bottom: 2px darkgray solid;
+}
+
+.mini h1 {
+    font-size: 1.5em;
+    margin-top: 0px;
+    line-height: normal;
+}
+
+.mini p {
+    margin-top: 0px;
+    font-size: 1.2em;
+}
+
+.mini img {
+    float: left;
+    width: 300px;
+    height: 150px;
+    margin: 0px;
+    margin-right: 25px;
+}
+
+@media screen and (min-width: 480px) {
+    .mini:hover img {
+        width: 325px;
+        height: 175px;
+    }
+}
+
+.mini1 {
+    margin-top: 50px;
+}
+
+.mini8 {
+    margin-bottom: 50px;
+}
+
+
+/* PÁGINA INDEX - MOBILE */
+
+@media screen and (max-width: 480px) {
+    .large {
+        display: none;
+    }
+    .medio {
+        display: none;
+    }
+    .mini {
+        margin: 0px;
+        margin-left: 4%;
+        margin-right: 4%;
+        margin-bottom: 50px;
+        width: 92%;
+        padding-bottom: 0px;
+        border-bottom: 2px darkgray solid;
+    }
+    .mini img {
+        width: 100%;
+        height: 175px;
+        margin: 0px;
+        margin-bottom: 10px;
+    }
+    .mini h1 {
+        font-size: 1.1em;
+        margin-top: 0px;
+        line-height: normal;
+        letter-spacing: normal;
+    }
+    .mini p {
+        margin-bottom: 0px;
+        font-size: 0.9em;
+        line-height: normal;
+        letter-spacing: normal;
+    }
+    .mini1 {
+        margin-top: 110px;
+    }
+    .mini8 {
+        margin-bottom: 50px;
+    }
+}
